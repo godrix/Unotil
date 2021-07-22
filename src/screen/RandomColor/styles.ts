@@ -1,5 +1,12 @@
 import styled from 'styled-components/native';
 
+const unoColor = {
+  'red':'#D73600',
+  'blue':'#0956BF',
+  'green':'#379711',
+  'yellow':'#ECD407',
+}
+
 export const Container = styled.TouchableOpacity.attrs({
   activeOpacity: 0.7,
 })`
@@ -17,7 +24,7 @@ export const Line = styled.View`
 `;
 
 export const BoxColor = styled.View<BoxColorProps>`
-  background: ${({color})=>color};
+  background: ${({color})=> unoColor[color]};
   ${({active})=>active && 'border-color: white; border-width:5px'}
   
   flex:2;
