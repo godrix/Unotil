@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
+import { useKeepAwake } from 'expo-keep-awake';
 
 import { Container, BoxColor, Line } from './styles';
 
 
 export function RandomColor() {
+  useKeepAwake();
   const [ramdomColor, setRandomColor] = useState(1);
   const [init, setInit] = useState(false);
 
