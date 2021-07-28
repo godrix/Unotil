@@ -1,5 +1,3 @@
 # Uno.ai
 
-Ramdomiza a escolha de cor em cartas coringa no jogo uno
-
-red, yellow, blue e green
+Ramdomiza a escolha de cor em cartas pretas no jogo uno
