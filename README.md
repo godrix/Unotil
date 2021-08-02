@@ -1,3 +1,3 @@
 # Uno.ai
 
-Ramdomiza a escolha de cor em cartas pretas no jogo uno
+Randomiza a escolha de cor em cartas pretas no jogo uno
